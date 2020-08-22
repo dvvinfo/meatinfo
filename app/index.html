@@ -249,7 +249,51 @@
 					</div>
                 </section>
 			</div>
+			<div class="advertising-block">
+				<div class="advertising-item">Реклама</div>
+				<div class="advertising-item">Реклама</div>
+
+			</div>
 		</section>
+<!--		modal-->
+		<div class="modal-wrapper" id="comment-modal" style="display: none">
+			<div class="modal-comment-header">
+				<div class="modal-user-wrapper">
+					<img src="./img/photo.png" alt="Аватарка" class="modal-avatar">
+					<div class="modal-user">
+						<span class="modal-user_name">Гость</span>
+						<div class="stars-wrapper">
+							<div class="stars"></div>
+<!--							<img src="./img/star.svg" alt="Оценка">-->
+<!--							<img src="./img/star.svg" alt="Оценка">-->
+<!--							<img src="./img/star.svg" alt="Оценка">-->
+<!--							<img src="./img/star.svg" alt="Оценка">-->
+<!--							<img src="./img/star.svg" alt="Оценка">-->
+							<span class="modal-user_text">Начните отзыв с выставления оценки</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-comment-body" >
+				<form action="#" method="post" class="madal-form" enctype="multipart/form-data">
+					<textarea class="modal-textarea" rows="5" placeholder="Сотрудничали с компанией? Расскажите как это было!" name="modalTextarea"></textarea>
+					<div class="modal-comment-footer">
+						<div class="modal-info-file">
+						<div id="preview">&nbsp;</div>
+						<div id="file-name"></div>
+						<div id="file-size">&nbsp;</div>
+						</div>
+						<div class="modal-file">
+							<label class="modal-file-label">
+							<input type="file" id="uploaded-file" class="modal-file-input" name="modal-file-input" onchange="getFileParam()"> <img src="./img/ic_add_photo@3x.svg" alt="Выиурите файл" class="modal-file_img">
+							</label>
+							<button class="modal-btn" type="submit">Отправить</button>
+						</div>
+
+					</div>
+				</form>
+			</div>
+		</div>
 
 	</div>
 
