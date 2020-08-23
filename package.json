@@ -1,6 +1,6 @@
 {
   "name": "Meatinfo",
-  "version": "3.0.0",
+  "version": "1.0.0",
   "description": "Meatinfo",
   "main": "index.js",
   "scripts": {

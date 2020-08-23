@@ -18,7 +18,7 @@ jQuery(function($){
         $('.modal .more').toggle();
     });
     $('.stars').raty({
-        path: '../img',
+        path: 'img',
         starOff : 'star-off1.png',
         starOn  : 'star-on1.png',
         showHalf:     false,
